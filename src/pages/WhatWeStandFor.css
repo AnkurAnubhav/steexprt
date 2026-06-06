@@ -1,0 +1,251 @@
+/* ============================================
+   WHAT WE STAND FOR PAGE
+   ============================================ */
+
+/* ---- Intro ---- */
+.wwsf-intro {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 48px;
+  align-items: start;
+}
+
+.wwsf-pillars-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-self: center;
+}
+
+.wwsf-nav-item {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-md);
+  background: var(--white);
+  border: 1px solid var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  text-decoration: none;
+  transition: var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.wwsf-nav-item:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.wwsf-nav-icon {
+  font-size: 1.2rem;
+}
+
+.wwsf-nav-num {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--text-light);
+  font-family: monospace;
+  letter-spacing: 0.05em;
+}
+
+.wwsf-nav-item:hover .wwsf-nav-num {
+  color: var(--accent);
+}
+
+/* ---- Pillars Grid ---- */
+.wwsf-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* ---- Pillar Card ---- */
+.wwsf-pillar-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  border: 1px solid var(--light-gray);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  scroll-margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wwsf-pillar-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+  border-color: rgba(26, 58, 92, 0.2);
+}
+
+.wwsf-pillar-card--even {
+  border-top: 3px solid var(--accent);
+}
+
+.wwsf-pillar-card:not(.wwsf-pillar-card--even) {
+  border-top: 3px solid var(--primary);
+}
+
+/* ---- Pillar Header ---- */
+.wwsf-pillar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.wwsf-pillar-num-wrap {
+  line-height: 1;
+}
+
+.wwsf-pillar-num {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: rgba(26, 58, 92, 0.1);
+  font-family: monospace;
+  letter-spacing: -0.05em;
+}
+
+.wwsf-pillar-icon-wrap {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-md);
+  background: rgba(26, 58, 92, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wwsf-pillar-icon {
+  font-size: 1.6rem;
+}
+
+/* ---- Pillar Body ---- */
+.wwsf-pillar-body {
+  flex: 1;
+}
+
+.wwsf-pillar-tagline {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+  margin-bottom: 6px;
+}
+
+.wwsf-pillar-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.wwsf-pillar-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* ---- Details ---- */
+.wwsf-pillar-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid var(--light-gray);
+}
+
+.wwsf-detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.wwsf-detail-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* ---- Summary Banner ---- */
+.wwsf-summary {
+  background: var(--gradient-primary);
+  padding: 80px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.wwsf-summary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.025'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.wwsf-summary-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.wwsf-summary-text {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 1100px) {
+  .wwsf-pillars-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .wwsf-intro {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .wwsf-pillars-nav {
+    grid-template-columns: repeat(9, 1fr);
+  }
+  .wwsf-nav-item {
+    width: auto;
+    height: 56px;
+  }
+}
+
+@media (max-width: 640px) {
+  .wwsf-pillars-grid {
+    grid-template-columns: 1fr;
+  }
+  .wwsf-pillars-nav {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
