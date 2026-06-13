@@ -1,3 +1,5 @@
+import profilephoto from '../assets/profileImage.jpeg';
+
 export const experts = [
   {
     id: 1,
@@ -6,7 +8,7 @@ export const experts = [
     specialty: "Iron Making & Blast Furnace Operations",
     experience: "28+ years",
     bio: "Extensive experience in blast furnace operations and iron making processes. Expertise in optimizing production efficiency, reducing coke rates, and improving hot metal quality across integrated steel plants.",
-    //photo: "https://randomuser.me/api/portraits/men/1.jpg"
+    photo: profilephoto
   },
   // {
   //   id: 2,

@@ -1,4 +1,5 @@
 import { config } from '../data/config'
+import qrCode from '../assets/qr-code.png'
 import './ContactUs.css'
 
 const contactDetails = [
@@ -85,9 +86,11 @@ export default function ContactUs() {
         </div>
       </section>
 
-      {/* Email CTA */}
+      {/* Email CTA + QR */}
       <section className="section">
         <div className="container">
+
+          {/* Email CTA */}
           <div className="contact-email-cta-block">
             <div className="contact-cta-text">
               <span className="section-label">Direct Contact</span>
@@ -99,27 +102,45 @@ export default function ContactUs() {
                 requirements and how we can support your steel plant.
               </p>
             </div>
-            <div className="contact-cta-action">
-              <div className="contact-cta-card">
-                <span className="contact-cta-icon">✉️</span>
-                <h3 className="contact-cta-card-title">Email Our Team</h3>
-                <p className="contact-cta-card-sub">
-                  Click below to send us an email directly. Your enquiry will be
-                  reviewed by the right specialist for your needs.
-                </p>
-                <a
-                  href={`mailto:${config.contactEmail}?subject=Consulting%20Enquiry%20-%20Steexprt&body=Dear%20Steexprt%20Consulting%20Team%2C%0A%0AI%20am%20reaching%20out%20regarding%20...%0A%0AName%3A%0ACompany%3A%0ARequirements%3A%0A`}
-                  className="btn btn-accent btn-lg"
-                  style={{ justifyContent: 'center', width: '100%' }}
-                >
-                  {config.contactEmail}
-                </a>
-                <p className="contact-cta-note">
-                  🔒 All enquiries are treated as strictly confidential.
-                </p>
-              </div>
+            <div className="contact-cta-card">
+              <span className="contact-cta-icon">✉️</span>
+              <h3 className="contact-cta-card-title">Email Our Team</h3>
+              <p className="contact-cta-card-sub">
+                Click below to send us an email directly. Your enquiry will be
+                reviewed by the right specialist for your needs.
+              </p>
+              <a
+                href={`mailto:${config.contactEmail}?subject=Consulting%20Enquiry%20-%20Steexprt&body=Dear%20Steexprt%20Consulting%20Team%2C%0A%0AI%20am%20reaching%20out%20regarding%20...%0A%0AName%3A%0ACompany%3A%0ARequirements%3A%0A`}
+                className="btn btn-accent btn-lg"
+                style={{ justifyContent: 'center', width: '100%' }}
+              >
+                {config.contactEmail}
+              </a>
+              <p className="contact-cta-note">
+                🔒 All enquiries are treated as strictly confidential.
+              </p>
             </div>
           </div>
+
+          {/* QR Code Card */}
+          <div className="contact-qr-block">
+            <div className="contact-qr-card">
+              <div className="contact-qr-text">
+                <span className="contact-cta-icon">📇</span>
+                <h3 className="contact-cta-card-title">Scan to Save Contact</h3>
+                <p className="contact-cta-card-sub">
+                  Scan the QR code with your phone camera to instantly save
+                  our contact details to your phone.
+                </p>
+              </div>
+              <img
+                src={qrCode}
+                alt="Steexprt contact card QR code"
+                className="contact-qr-image"
+              />
+            </div>
+          </div>
+
         </div>
       </section>
 
