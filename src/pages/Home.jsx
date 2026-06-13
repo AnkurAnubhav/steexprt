@@ -40,6 +40,8 @@ const expertiseAreas = [
   { icon: '💻', label: 'ERP Systems' },
   { icon: '📊', label: 'MIS & IT' },
   { icon: '🤖', label: 'Automation' },
+  { icon: '🧱', label: 'DRI Project & Operation' },
+  { icon: '🔧', label: 'Maint Mangmt Sys' },
 ]
 
 export default function Home() {

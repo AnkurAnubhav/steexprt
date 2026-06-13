@@ -21,16 +21,19 @@ export default function HeroSection() {
           {/* Heading */}
           <h1 className="hero__title">
             Transforming Steel Plants<br />
-            <span className="hero__title-accent">Through Expert Consulting</span>
+            <span className="hero__title-accent">Through Expert Technical Consultancy</span>
           </h1>
 
           {/* Body */}
           <p className="hero__description">
-            We are a group of steel manufacturing domain experts, and we support all
-            aspects of steel manufacturing such as Coke making, Sinter Making, Iron
-            making, Steel making, Rolling, Raw material movement, Finished Product and
-            related material logistics, Procurement and inventory management, ERP system
-            design and likewise all related activities of Steel manufacturing.
+            We are steel manufacturing domain experts supporting every stage of the production
+            journey — from DRI (Gas & Coal Based) and Liquid Iron routes, through Sinter &
+            Coke making, Raw Material management, Iron & Steel making, Rolling, and Finished
+            Product quality control. We develop stage-wise process management systems that drive
+            operator-led productivity and AI-based decision making, alongside support systems for
+            Logistics, Procurement, Inventory, and Maintenance. We also help organisations design
+            closed-loop ERP systems that capture real-time manufacturing and commercial data for
+            cost visibility and customer order management.
           </p>
 
           {/* CTA Buttons */}
@@ -51,7 +54,7 @@ export default function HeroSection() {
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
-              <span className="hero__stat-value">25+</span>
+              <span className="hero__stat-value">35+</span>
               <span className="hero__stat-label">Years Avg. Experience</span>
             </div>
             <div className="hero__stat-divider" />

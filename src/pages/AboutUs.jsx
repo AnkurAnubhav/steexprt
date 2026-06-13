@@ -28,24 +28,27 @@ export default function AboutUs() {
               </h2>
               <div className="accent-divider" />
               <p className="about-story-body">
-                Steexprt was established by a group of seasoned steel
-                manufacturing professionals who collectively spent decades working in
-                integrated steel plants across India and internationally. We saw firsthand
-                how valuable domain expertise — the kind you can only gain from years on
+                Steexprt was established by a group of seasoned steel manufacturing 
+                professionals who collectively spent decades working in integrated 
+                steel plants across India and internationally. We saw firsthand how 
+                valuable domain expertise — the kind you can only gain from years on 
                 the shop floor — could transform plant performance.
               </p>
               <p className="about-story-body mt-16">
-                We founded Steexprt to make that expertise accessible to steel
-                producers of all sizes: from greenfield projects seeking to establish best
-                practices from day one, to legacy plants needing modernization and
-                efficiency improvements.
+                We founded “Steexprt” to make that expertise accessible to steel 
+                producers of all sizes of operation and steel project management: from 
+                greenfield projects seeking to establish best practices from conceptualisation 
+                stage, to legacy plants needing modernization, Manpower optimisation through 
+                automation and process efficiency improvements for significant cost advantage.
               </p>
               <p className="about-story-body mt-16">
-                Today, our team covers every major domain in integrated steel
-                manufacturing — from coke ovens and blast furnaces to rolling mills,
-                logistics, ERP systems, and AI-powered process control. We don't just
-                advise; we engage with the deep practical knowledge that only comes from
-                having lived these challenges ourselves.
+                Today, our team covers every major domain of integrated steel manufacturing 
+                — from mining of Raw Material, coke ovens, Sinter plant and blast furnaces or 
+                DRI route to rolling mills, logistics, ERP systems, and AI-powered process control.
+                We are not who advices from air-conditioned conference room we are ready to roll up 
+                our sleeve and join hand in all aspects of field activities. We engage with the deep 
+                practical knowledge sharing and hand holding that only can comes from having lived 
+                these challenges ourselves.
               </p>
             </div>
           </div>

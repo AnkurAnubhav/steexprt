@@ -101,18 +101,20 @@ export default function CompanyObjective() {
               </h2>
               <div className="accent-divider" />
               <p className="co-intro-body">
-                Steexprt was founded on a singular conviction: that the steel
-                industry deserves consulting services delivered by people who have
-                actually worked in steel plants — not just studied them. Our team brings
-                collective experience spanning every major process unit of an integrated
-                steel plant, enabling us to provide actionable, practical, and
-                commercially sensible recommendations.
+                Steexprt was founded on a singular conviction: that the steel industry
+                worldwide deserves consulting services delivered by people who have actually
+                worked in steel plants — not just studied them. Steel manufacturing needs
+                adoption of newer techniques to remain cost competitiveness from relevant
+                in ever growing material adoption innovation. Our team brings collective
+                experience spanning every major process unit of an integrated steel plant,
+                enabling us to provide actionable, practical, and commercially sensible
+                recommendations.
               </p>
               <p className="co-intro-body mt-16">
                 Our objective is not merely to advise, but to drive measurable
                 transformation — improving productivity, reducing costs, modernizing
-                operations, and empowering your workforce with knowledge and tools that
-                sustain improvements long after our engagement concludes.
+                operations, and empowering your workforce with knowledge and tools
+                that sustain improvements long after our engagement concludes.
               </p>
             </div>
             <div className="co-intro-stats">

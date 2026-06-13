@@ -99,6 +99,7 @@
 
 .hero__title-accent {
   color: var(--accent);
+  font-size: 2rem;
 }
 
 /* Description */
