@@ -46,8 +46,6 @@
   font-size: 0.95rem;
 }
 
-.home__strip-text {}
-
 /* ---- Overview Cards ---- */
 .home__cards-grid {
   display: grid;
@@ -131,7 +129,7 @@
   transform: translateX(4px);
 }
 
-/* ---- Why Steexprt ---- */
+/* ---- Why Steexpert ---- */
 .home__why {
   background: var(--white);
 }
@@ -177,9 +175,6 @@
   gap: 14px;
   flex-wrap: wrap;
 }
-
-/* Why Visual */
-.home__why-visual {}
 
 .home__why-card {
   background: var(--gradient-primary);
@@ -314,5 +309,22 @@
   }
   .home__strip-items {
     gap: 6px;
+  }
+}
+
+.home__experts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+ 
+.home__experts-cta {
+  text-align: center;
+  margin-top: 40px;
+}
+ 
+@media (max-width: 640px) {
+  .home__experts-grid {
+    grid-template-columns: 1fr;
   }
 }

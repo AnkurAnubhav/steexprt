@@ -7,7 +7,7 @@ const policies = [
     title: 'Quality Policy',
     tagline: 'Excellence in Every Engagement',
     intro:
-      'Steexprt is committed to delivering the highest quality consulting services by combining deep domain expertise with structured methodologies and a relentless focus on client outcomes.',
+      'Steexpert is committed to delivering the highest quality consulting services by combining deep domain expertise with structured methodologies and a relentless focus on client outcomes.',
     points: [
       'All consulting deliverables are subject to internal peer review by experienced domain specialists before submission to clients.',
       'Recommendations are grounded in international best practices, industry benchmarks, and the specific operational context of each client.',
@@ -22,7 +22,7 @@ const policies = [
     title: 'Ethics Policy',
     tagline: 'Integrity as a Core Value',
     intro:
-      'Ethical conduct is non-negotiable at Steexprt. Every member of our team operates with transparency, fairness, and professional integrity in all interactions.',
+      'Ethical conduct is non-negotiable at Steexpert. Every member of our team operates with transparency, fairness, and professional integrity in all interactions.',
     points: [
       'We maintain strict independence from equipment suppliers, contractors, and vendors — our recommendations are guided solely by the best interests of our clients.',
       'No conflicts of interest are tolerated. Consultants must disclose any relationship with third parties that could influence their professional judgment.',
@@ -75,7 +75,7 @@ export default function CompanyPolicy() {
           <h1>Company Policy</h1>
           <p>
             Our policies define the standards of conduct, quality, and commitment
-            that govern every engagement we undertake at Steexprt.
+            that govern every engagement we undertake at Steexpert.
           </p>
         </div>
       </section>
@@ -91,14 +91,14 @@ export default function CompanyPolicy() {
               </h2>
               <div className="accent-divider" />
               <p style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: '1.8', marginBottom: '16px' }}>
-                At Steexprt, we believe that exceptional consulting is as
+                At Steexpert, we believe that exceptional consulting is as
                 much about how you work as it is about what you deliver. Our company
                 policies are not compliance documents — they are living commitments
                 that shape every interaction, decision, and deliverable.
               </p>
               <p style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: '1.8' }}>
                 These four policy pillars — Quality, Ethics, Client Commitment, and
-                Confidentiality — together form the operating charter of Steexprt
+                Confidentiality — together form the operating charter of Steexpert
                 Consulting. We hold ourselves accountable to each of them without
                 exception.
               </p>
@@ -163,10 +163,10 @@ export default function CompanyPolicy() {
             <span className="cp-statement-icon">📜</span>
             <blockquote className="cp-statement-quote">
               "These policies are not aspirations — they are standards. Every member
-              of the Steexprt team is personally committed to upholding
+              of the Steexpert team is personally committed to upholding
               them in every engagement, every day."
             </blockquote>
-            <p className="cp-statement-attr">— Steexprt Leadership</p>
+            <p className="cp-statement-attr">— Steexpert Leadership</p>
           </div>
         </div>
       </section>

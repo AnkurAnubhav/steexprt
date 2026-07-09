@@ -38,7 +38,7 @@ export default function Navbar() {
     <header className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
       <div className="navbar__container">
         {/* Logo */}
-        <NavLink to="/" className="navbar__logo" aria-label="Steexprt Home">
+        <NavLink to="/" className="navbar__logo" aria-label="Steexpert Home">
           <div className="navbar__logo-icon">
             <span>S</span>
           </div>

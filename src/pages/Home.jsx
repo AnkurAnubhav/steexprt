@@ -102,7 +102,7 @@ export default function Home() {
         <div className="container">
           <div className="home__why-grid">
             <div className="home__why-content">
-              <span className="section-label">Why Steexprt</span>
+              <span className="section-label">Why Steexpert</span>
               <h2 className="section-title">Unmatched Domain Depth in Steel Manufacturing</h2>
               <div className="accent-divider" />
               <p className="section-subtitle">

@@ -1,6 +1,49 @@
 import { experts } from '../data/experts'
 import './AboutUs.css'
 
+function ExpertCardFeatured({ expert }) {
+  return (
+    <div className="about-expert-featured">
+      <div className="about-expert-photo-wrap">
+        <img
+          src={expert.photo || 'https://via.placeholder.com/220'}
+          alt={expert.name}
+          className="about-expert-photo"
+          loading="lazy"
+        />
+        <div className="about-expert-exp-badge">{expert.experience}</div>
+      </div>
+      <div className="about-expert-body">
+        <h3 className="about-expert-name">{expert.name}</h3>
+        <p className="about-expert-designation">{expert.designation}</p>
+        <span className="badge badge-accent about-expert-specialty">{expert.specialty}</span>
+        <p className="about-expert-bio">{expert.bio}</p>
+      </div>
+    </div>
+  )
+}
+
+function ExpertCardGrid({ expert }) {
+  return (
+    <div className="about-expert-card">
+      <div className="about-expert-photo-wrap">
+        <img
+          src={expert.photo || 'https://via.placeholder.com/400x240'}
+          alt={expert.name}
+          className="about-expert-photo"
+          loading="lazy"
+        />
+        <div className="about-expert-exp-badge">{expert.experience}</div>
+      </div>
+      <div className="about-expert-body">
+        <h3 className="about-expert-name">{expert.name}</h3>
+        <p className="about-expert-designation">{expert.designation}</p>
+        <span className="badge badge-accent about-expert-specialty">{expert.specialty}</span>
+        <p className="about-expert-bio">{expert.bio}</p>
+      </div>
+    </div>
+  )
+}
 
 export default function AboutUs() {
   return (
@@ -28,14 +71,14 @@ export default function AboutUs() {
               </h2>
               <div className="accent-divider" />
               <p className="about-story-body">
-                Steexprt was established by a group of seasoned steel manufacturing 
+                Steexpert was established by a group of seasoned steel manufacturing 
                 professionals who collectively spent decades working in integrated 
                 steel plants across India and internationally. We saw firsthand how 
                 valuable domain expertise — the kind you can only gain from years on 
                 the shop floor — could transform plant performance.
               </p>
               <p className="about-story-body mt-16">
-                We founded “Steexprt” to make that expertise accessible to steel 
+                We founded "Steexpert" to make that expertise accessible to steel 
                 producers of all sizes of operation and steel project management: from 
                 greenfield projects seeking to establish best practices from conceptualisation 
                 stage, to legacy plants needing modernization, Manpower optimisation through 
@@ -79,7 +122,7 @@ export default function AboutUs() {
       <section className="section bg-off-white">
         <div className="container">
           <div className="section-header-center">
-            <span className="section-label">The People Behind Steexprt</span>
+            <span className="section-label">The People Behind Steexpert</span>
             <h2 className="section-title">Meet Our Expert Team</h2>
             <div className="accent-divider-center" />
             <p className="section-subtitle">
@@ -90,53 +133,11 @@ export default function AboutUs() {
           </div>
 
           {experts.length === 1 ? (
-            // Featured layout for a single expert
-            <div className="about-expert-featured">
-              <div className="about-expert-photo-wrap">
-                <img
-                  src={experts[0].photo || `https://via.placeholder.com/150`}
-                  alt={experts[0].name}
-                  className="about-expert-photo"
-                  loading="lazy"
-                />
-                <div className="about-expert-exp-badge">
-                  {experts[0].experience}
-                </div>
-              </div>
-              <div className="about-expert-body">
-                <h3 className="about-expert-name">{experts[0].name}</h3>
-                <p className="about-expert-designation">{experts[0].designation}</p>
-                <span className="badge badge-accent about-expert-specialty">
-                  {experts[0].specialty}
-                </span>
-                <p className="about-expert-bio">{experts[0].bio}</p>
-              </div>
-            </div>
+            <ExpertCardFeatured expert={experts[0]} />
           ) : (
-            // Grid layout for multiple experts
             <div className="about-experts-grid">
               {experts.map(expert => (
-                <div key={expert.id} className="about-expert-card">
-                  <div className="about-expert-photo-wrap">
-                    <img
-                      src={expert.photo || `https://via.placeholder.com/150`}
-                      alt={expert.name}
-                      className="about-expert-photo"
-                      loading="lazy"
-                    />
-                    <div className="about-expert-exp-badge">
-                      {expert.experience}
-                    </div>
-                  </div>
-                  <div className="about-expert-body">
-                    <h3 className="about-expert-name">{expert.name}</h3>
-                    <p className="about-expert-designation">{expert.designation}</p>
-                    <span className="badge badge-accent about-expert-specialty">
-                      {expert.specialty}
-                    </span>
-                    <p className="about-expert-bio">{expert.bio}</p>
-                  </div>
-                </div>
+                <ExpertCardGrid key={expert.id} expert={expert} />
               ))}
             </div>
           )}

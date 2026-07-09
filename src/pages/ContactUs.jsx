@@ -110,7 +110,7 @@ export default function ContactUs() {
                 reviewed by the right specialist for your needs.
               </p>
               <a
-                href={`mailto:${config.contactEmail}?subject=Consulting%20Enquiry%20-%20Steexprt&body=Dear%20Steexprt%20Consulting%20Team%2C%0A%0AI%20am%20reaching%20out%20regarding%20...%0A%0AName%3A%0ACompany%3A%0ARequirements%3A%0A`}
+                href={`mailto:${config.contactEmail}?subject=Consulting%20Enquiry%20-%20Steexpert&body=Dear%20Steexpert%20Consulting%20Team%2C%0A%0AI%20am%20reaching%20out%20regarding%20...%0A%0AName%3A%0ACompany%3A%0ARequirements%3A%0A`}
                 className="btn btn-accent btn-lg"
                 style={{ justifyContent: 'center', width: '100%' }}
               >
@@ -135,7 +135,7 @@ export default function ContactUs() {
               </div>
               <img
                 src={qrCode}
-                alt="Steexprt contact card QR code"
+                alt="Steexpert contact card QR code"
                 className="contact-qr-image"
               />
             </div>

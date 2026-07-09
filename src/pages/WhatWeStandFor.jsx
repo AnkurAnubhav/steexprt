@@ -146,7 +146,7 @@ export default function WhatWeStandFor() {
               </h2>
               <div className="accent-divider" />
               <p className="section-subtitle">
-                These nine pillars represent the core areas where Steexprt
+                These nine pillars represent the core areas where Steexpert
                 delivers measurable, sustainable impact. They are not abstract values —
                 they are the specific domains in which our experts have spent careers
                 driving real improvements at real steel plants.
@@ -212,7 +212,7 @@ export default function WhatWeStandFor() {
             <div className="accent-divider-center" />
             <p className="wwsf-summary-text">
               Whether you need help with a single pillar or a comprehensive transformation
-              across all nine, Steexprt has the domain expertise, the
+              across all nine, Steexpert has the domain expertise, the
               methodology, and the commitment to deliver results that last.
             </p>
             <a href="#/contact-us" className="btn btn-accent btn-lg mt-32">

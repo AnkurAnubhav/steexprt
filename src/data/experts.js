@@ -13,11 +13,11 @@ export const experts = [
   // {
   //   id: 2,
   //   name: "Dushyant Kumar",
-  //   // designation: "Chief Coke Making Consultant",
-  //   // specialty: "Coke Making & By-Product Recovery",
-  //   // experience: "25+ years",
-  //   // bio: "Deep domain expertise in coke oven battery operations, by-product recovery, and coke quality optimization. Has led multiple greenfield coke plant projects and revamp assignments globally.",
-  //   // photo: "https://randomuser.me/api/portraits/men/2.jpg"
+  //   designation: "Chief Coke Making Consultant",
+  //   specialty: "Coke Making & By-Product Recovery",
+  //   experience: "25+ years",
+  //   bio: "Deep domain expertise in coke oven battery operations, by-product recovery, and coke quality optimization. Has led multiple greenfield coke plant projects and revamp assignments globally.",
+  //   photo: "profilephoto"
   // },
   // {
   //   id: 3,

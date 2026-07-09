@@ -84,7 +84,7 @@ export default function CompanyObjective() {
           <span className="page-header-label">Who We Are & What We Aim For</span>
           <h1>Company Objective</h1>
           <p>
-            Our objectives define the purpose and direction of Steexprt —
+            Our objectives define the purpose and direction of Steexpert —
             guiding every engagement we undertake with our clients.
           </p>
         </div>
@@ -101,7 +101,7 @@ export default function CompanyObjective() {
               </h2>
               <div className="accent-divider" />
               <p className="co-intro-body">
-                Steexprt was founded on a singular conviction: that the steel industry
+                Steexpert was founded on a singular conviction: that the steel industry
                 worldwide deserves consulting services delivered by people who have actually
                 worked in steel plants — not just studied them. Steel manufacturing needs
                 adoption of newer techniques to remain cost competitiveness from relevant
