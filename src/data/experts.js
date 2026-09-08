@@ -1,4 +1,6 @@
 import profilephoto from '../assets/profileImage.jpeg';
+import dyushantKumar_profilephoto from '../assets/dyushantKumar_profilephoto.jpeg';
+import snupadhaya_profilephoto from '../assets/snupadhaya_profilephoto.jpeg';
 
 export const experts = [
   {
@@ -10,24 +12,24 @@ export const experts = [
     bio: "Extensive experience in blast furnace operations and iron making processes. Expertise in optimizing production efficiency, reducing coke rates, and improving hot metal quality across integrated steel plants.",
     photo: profilephoto
   },
-  // {
-  //   id: 2,
-  //   name: "Dushyant Kumar",
-  //   designation: "Chief Coke Making Consultant",
-  //   specialty: "Coke Making & By-Product Recovery",
-  //   experience: "25+ years",
-  //   bio: "Deep domain expertise in coke oven battery operations, by-product recovery, and coke quality optimization. Has led multiple greenfield coke plant projects and revamp assignments globally.",
-  //   photo: "profilephoto"
-  // },
-  // {
-  //   id: 3,
-  //   name: "Suman Chatterjee",
-  //   // designation: "Principal Sinter Plant Consultant",
-  //   // specialty: "Sinter Making & Raw Material Preparation",
-  //   // experience: "22+ years",
-  //   // bio: "Specialist in sinter plant operations, raw mix optimization, and bed permeability improvement. Proven track record in reducing return fines, improving sinter quality indices, and achieving energy savings.",
-  //   // photo: "https://randomuser.me/api/portraits/women/3.jpg"
-  // },
+  {
+    id: 2,
+    name: "Dushyant Kumar",
+    designation: "Chief Of Operation",
+    specialty: "Hot Metal Logistics, Cast House Operation",
+    experience: "38+ years",
+    bio: "Ex Tata Steel professional specialising in Hot Metal Logistics, Cast House Operation and Blast furnace control.",
+    photo: dyushantKumar_profilephoto
+  },
+  {
+    id: 3,
+    name: "S N Upadhaya",
+    designation: "Senior Consultant",
+    specialty: "Blast Furnace Maintenance and Projects",
+    experience: "37+ years",
+    bio: "Ex Tata Steel professional specialising in Blast Furnace Maintenance and Blast furnace Projects.",
+    photo: snupadhaya_profilephoto
+  }
   // {
   //   id: 4,
   //   name: "B Prasad",

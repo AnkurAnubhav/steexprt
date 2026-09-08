@@ -1,239 +1,93 @@
 import { Link } from 'react-router-dom'
 import './SpecialProduct.css'
 
-const features = [
+const products = [
   {
-    icon: '🧠',
-    title: 'Self-Learning AI',
-    description:
-      'The app continuously learns from historical plant data, operator decisions, and process outcomes — improving its guidance and predictions over time without manual retraining.',
-  },
-  {
-    icon: '🎤',
-    title: 'Voice Guided Process Control',
-    description:
-      'Inbuilt voice-guided support provides real-time verbal instructions to operators during critical process steps, reducing errors and improving response time during process deviations.',
-  },
-  {
-    icon: '🏭',
-    title: 'Custom Plant Operations',
-    description:
-      'Fully configurable for the specific processes, equipment, and operating parameters of your plant — not a generic solution, but one built around your operational context.',
-  },
-  {
-    icon: '📱',
-    title: 'Mobile-First Design',
-    description:
-      'Designed from the ground up for mobile devices — enabling operators, supervisors, and managers to access real-time plant data and controls from anywhere on the shop floor.',
-  },
-  {
-    icon: '📡',
-    title: 'Real-Time Monitoring',
-    description:
-      'Live dashboards pulling data directly from plant control systems provide up-to-the-minute visibility of all critical process parameters across every plant unit.',
-  },
-  {
-    icon: '📊',
-    title: 'Data Analytics',
-    description:
-      'Built-in analytics engine processes historical and real-time data to identify trends, predict equipment issues, optimize process parameters, and generate actionable management reports.',
-  },
-]
-
-const benefits = [
-  {
-    metric: '↑ 15–25%',
-    label: 'Productivity Improvement',
-    desc: 'Typical productivity gains from AI-guided process optimization',
-  },
-  {
-    metric: '↓ 10–20%',
-    label: 'Cost Reduction',
-    desc: 'Reduction in process-related costs through AI-driven decisions',
-  },
-  {
-    metric: '↓ 40%',
-    label: 'Process Deviation Alerts',
-    desc: 'Reduction in undetected process deviations with real-time monitoring',
-  },
-  {
-    metric: '↑ 30%',
-    label: 'Operator Efficiency',
-    desc: 'Improvement in operator decision speed with voice-guided support',
-  },
-]
-
-const useCases = [
-  {
+    code: 'BLFOP',
     icon: '🔥',
-    unit: 'Blast Furnace',
-    applications: [
-      'Burden distribution optimization',
-      'Hot metal temperature & composition prediction',
-      'Tapping practice guidance',
-      'Coke rate minimization AI',
-    ],
+    title: 'Blast Furnace Operation',
+    desc: 'Self-correcting AI-based mobile app for real-time blast furnace operation guidance. Learns from your furnace data and continuously improves process recommendations.',
   },
   {
-    icon: '⚗️',
-    unit: 'Steel Making',
-    applications: [
-      'BOF end-point prediction',
-      'Slag practice optimization',
-      'Ladle treatment guidance',
-      'Heat cycle time minimization',
-    ],
+    code: 'COKBLD',
+    icon: '🧱',
+    title: 'Coal Blend Optimisation',
+    desc: 'AI-based mobile app that identifies the most cost-effective coal blend for coke production, balancing quality targets with raw material availability and cost.',
   },
   {
-    icon: '🔩',
-    unit: 'Sinter Plant',
-    applications: [
-      'Raw mix optimization AI',
-      'Bed permeability prediction',
-      'Sinter quality index forecasting',
-      'Return fines reduction guidance',
-    ],
+    code: 'PRODTRA',
+    icon: '📦',
+    title: 'Product Process Tracking',
+    desc: 'End-to-end mobile tracking of product journey through the plant — from raw material to finished product — with stage-wise process parameter visibility.',
   },
   {
-    icon: '🔄',
-    unit: 'Rolling Mills',
-    applications: [
-      'Roll pass schedule optimization',
-      'Surface quality anomaly detection',
-      'Cobble prediction & prevention',
-      'Yield improvement recommendations',
-    ],
+    code: 'LABLINK',
+    icon: '🧪',
+    title: 'Online Lab Testing Reports',
+    desc: 'Mobile-based platform for real-time lab testing report generation and distribution — eliminating paper-based workflows and accelerating quality decisions.',
   },
 ]
 
 export default function SpecialProduct() {
   return (
     <main className="special-product-page">
+
       {/* Page Header */}
       <section className="page-header">
         <div className="container page-header-content">
           <span className="page-header-label">Innovation in Steel Operations</span>
-          <h1>Special Product</h1>
+          <h1>AI Products</h1>
           <p>
-            Our flagship AI-powered solution for next-generation steel plant
-            operations management.
+            Purpose-built mobile AI applications for integrated steel plant operations —
+            each designed around a specific process challenge.
           </p>
         </div>
       </section>
 
-      {/* Product Hero */}
-      <section className="sp-product-hero">
+      {/* Launch Banner */}
+      <section className="sp-launch-banner">
         <div className="container">
-          <div className="sp-hero-content">
-            <div className="sp-hero-badge">
-              <span className="sp-hero-badge-dot" />
-              AI-Powered Solution
+          <div className="sp-launch-inner">
+            <span className="sp-launch-icon">🚀</span>
+            <div>
+              <h3 className="sp-launch-title">Launching January 2027</h3>
+              <p className="sp-launch-sub">
+                Our AI product suite is currently in development. Register your interest
+                to be notified at launch and get early access.
+              </p>
             </div>
-            <h2 className="sp-product-title">
-              AI-Based Smart Plant<br />
-              <span className="sp-title-accent">Operations App</span>
-            </h2>
-            <div className="accent-divider" />
-            <p className="sp-product-desc">
-              Customized AI applications with self-learning ability for defined and
-              specific plant operations, with inbuilt process control voice-guided
-              support. Designed to bring the intelligence of decades of expert
-              knowledge into the hands of every operator on the shop floor.
-            </p>
-            <p className="sp-product-desc mt-16">
-              Unlike generic industrial software, our Smart Plant Operations App
-              is built around the specific processes, equipment, and operating
-              conditions of your plant — and it gets smarter with every shift.
-            </p>
-            <div className="sp-hero-actions">
-              <Link to="/contact-us" className="btn btn-accent btn-lg">
-                Request a Demo
-              </Link>
-              <Link to="/contact-us" className="btn btn-outline btn-lg">
-                Learn More
-              </Link>
-            </div>
+            <Link to="/contact-us" className="btn btn-accent">
+              Register Interest
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Features */}
+      {/* Products Grid */}
       <section className="section bg-off-white">
         <div className="container">
           <div className="section-header-center">
-            <span className="section-label">Core Capabilities</span>
-            <h2 className="section-title">Key Features</h2>
+            <span className="section-label">AI-Based Mobile Applications</span>
+            <h2 className="section-title">Our Product Suite</h2>
             <div className="accent-divider-center" />
             <p className="section-subtitle">
-              Six foundational capabilities that make the Smart Plant Operations App
-              a transformative solution for integrated steel plants.
+              Four specialised mobile AI apps, each targeting a high-impact area
+              of steel plant operations. Built by domain experts, for domain experts.
             </p>
           </div>
 
-          <div className="sp-features-grid">
-            {features.map(f => (
-              <div key={f.title} className="sp-feature-card">
-                <div className="sp-feature-icon-wrap">
-                  <span className="sp-feature-icon">{f.icon}</span>
+          <div className="sp-products-grid">
+            {products.map(p => (
+              <div key={p.code} className="sp-product-card">
+                <div className="sp-product-card__top">
+                  <span className="sp-product-card__icon">{p.icon}</span>
+                  <span className="sp-product-card__code">{p.code}</span>
                 </div>
-                <h3 className="sp-feature-title">{f.title}</h3>
-                <p className="sp-feature-desc">{f.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Benefits */}
-      <section className="sp-benefits">
-        <div className="container">
-          <div className="section-header-center">
-            <span className="section-label" style={{ color: 'var(--accent)' }}>
-              Measurable Impact
-            </span>
-            <h2 className="section-title-white">Expected Benefits</h2>
-            <div className="accent-divider-center" />
-          </div>
-          <div className="sp-benefits-grid">
-            {benefits.map(b => (
-              <div key={b.label} className="sp-benefit-card">
-                <div className="sp-benefit-metric">{b.metric}</div>
-                <h3 className="sp-benefit-label">{b.label}</h3>
-                <p className="sp-benefit-desc">{b.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Use Cases */}
-      <section className="section">
-        <div className="container">
-          <div className="section-header-center">
-            <span className="section-label">Where It Works</span>
-            <h2 className="section-title">Use Cases by Plant Unit</h2>
-            <div className="accent-divider-center" />
-            <p className="section-subtitle">
-              The Smart Plant Operations App can be configured for any major process
-              unit in an integrated steel plant. Here are some examples:
-            </p>
-          </div>
-
-          <div className="sp-usecases-grid">
-            {useCases.map(u => (
-              <div key={u.unit} className="sp-usecase-card">
-                <div className="sp-usecase-header">
-                  <span className="sp-usecase-icon">{u.icon}</span>
-                  <h3 className="sp-usecase-unit">{u.unit}</h3>
+                <h3 className="sp-product-card__title">{p.title}</h3>
+                <p className="sp-product-card__desc">{p.desc}</p>
+                <div className="sp-product-card__footer">
+                  <span className="sp-product-card__badge">Launching Jan 2027</span>
                 </div>
-                <ul className="sp-usecase-apps">
-                  {u.applications.map(a => (
-                    <li key={a} className="sp-usecase-app">
-                      <span className="sp-usecase-dot" />
-                      {a}
-                    </li>
-                  ))}
-                </ul>
               </div>
             ))}
           </div>
@@ -256,13 +110,14 @@ export default function SpecialProduct() {
             </div>
             <div className="sp-cta-action">
               <Link to="/contact-us" className="btn btn-accent btn-lg">
-                Request a Consultation
+                Request a Demo
               </Link>
               <p className="sp-cta-note">No commitment. Free initial consultation.</p>
             </div>
           </div>
         </div>
       </section>
+
     </main>
   )
 }

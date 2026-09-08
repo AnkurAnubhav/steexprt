@@ -12,7 +12,7 @@ export default function HeroSection() {
       setCurrent(i => (i + 1) % experts.length)
     }, 4000)
     return () => clearInterval(timer)
-  }, [])
+  }, [current])
 
   const expert = experts[current]
 
@@ -73,14 +73,19 @@ export default function HeroSection() {
           </h1>
 
           <p className="hero__description">
-            We are steel manufacturing domain experts supporting every stage of the production
-            journey — from DRI (Gas & Coal Based) and Liquid Iron routes, through Sinter &
-            Coke making, Raw Material management, Iron & Steel making, Rolling, and Finished
-            Product quality control. We develop stage-wise process management systems that drive
-            operator-led productivity and AI-based decision making, alongside support systems for
-            Logistics, Procurement, Inventory, and Maintenance. We also help organisations design
-            closed-loop ERP systems that capture real-time manufacturing and commercial data for
-            cost visibility and customer order management.
+            We are a group of Ex TATA Steel and Other Leading Indian Steel Plant professional with
+             domain expertise on all aspects of Steel Manufacturing, inclusion Project Conceptualisation 
+             and Project management. We solutions help Project Site team better activity visibility and
+             clear site of critical activity thru CCPM tool. Our solutions support plant operation towards
+             most optimal option suiting their assets Equipment facilities and Raw materials. We help them
+             shift toward most cost-effective performance regime.
+             <strong>
+              We earn Values by sharing form new opportunities, recovered losses & additional productivity. 
+             </strong>
+             We help teams have better coherence and coordination among members at all levels such that
+             coherence line of action can be perused. Our trainings have in-built assessment process which
+             helps identify knowledge gaps and help design specific module for upgrading knowledge and skill
+             for highest level of coordination.
           </p>
 
           <div className="hero__actions">

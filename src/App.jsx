@@ -9,6 +9,7 @@ import Home             from './pages/Home'
 import AboutUs          from './pages/AboutUs'
 import CompanyObjective from './pages/CompanyObjective'
 import CompanyPolicy    from './pages/CompanyPolicy'
+import Solutions        from './pages/Solutions'
 import SpecialProduct   from './pages/SpecialProduct'
 import ContactUs        from './pages/ContactUs'
 
@@ -30,9 +31,9 @@ function AppInner() {
         <Route path="/about-us"          element={<AboutUs />} />
         <Route path="/company-objective" element={<CompanyObjective />} />
         <Route path="/company-policy"    element={<CompanyPolicy />} />
+        <Route path="/solutions"         element={<Solutions />} />
         <Route path="/special-product"   element={<SpecialProduct />} />
         <Route path="/contact-us"        element={<ContactUs />} />
-        {/* Fallback to Home for unmatched routes */}
         <Route path="*"                  element={<Home />} />
       </Routes>
       <Footer />

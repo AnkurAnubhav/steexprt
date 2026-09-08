@@ -8,7 +8,8 @@ const navLinks = [
   { label: 'About Us',           path: '/about-us' },
   { label: 'Company Objective',  path: '/company-objective' },
   { label: 'Company Policy',     path: '/company-policy' },
-  { label: 'Special Product',    path: '/special-product' },
+  { label: 'Services & Solutions', path: '/solutions' },
+  { label: 'AI Product',         path: '/special-product' },
   { label: 'Contact Us',         path: '/contact-us' },
 ]
 
@@ -44,7 +45,7 @@ export default function Navbar() {
           </div>
           <div className="navbar__logo-text">
             <span className="navbar__logo-primary">{config.companyName}</span>
-            <span className="navbar__logo-sub">Steel Manufacturing Consultancy</span>
+            <span className="navbar__logo-sub">Steel Projects & Operations Solution</span>
           </div>
         </NavLink>
 
