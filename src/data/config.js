@@ -1,5 +1,5 @@
 export const config = {
-  contactEmail: "sanjaykumar.steexpert@gmail.com",
-  companyName: "SPROSCON.com",
+  contactEmail: "steelsolusn@gmail.com",
+  companyName: "STEELSOLUSN.COM",
   companyTagline: "Domain Expertise in Steel Manufacturing Excellence"
 }

@@ -3,6 +3,10 @@
    ============================================ */
 
 /* ---- Intro Section ---- */
+.page-header {
+  padding: 40px 0 30px;
+}
+
 .solutions-intro {
   display: grid;
   grid-template-columns: 1fr 280px;

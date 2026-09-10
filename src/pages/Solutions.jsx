@@ -106,10 +106,46 @@ export default function Solutions() {
           <span className="page-header-label">What We Do</span>
           <h1>Our Solutions</h1>
           <p>
-            We work with plant teams to identify the most cost-optimal operational
-            regime through Value-in-Use modelling — covering every stage from project
-            concept to sustained operational excellence.
+            <p>End-to-end steel plant consulting — from project concept to operational excellence.</p>
           </p>
+        </div>
+      </section>
+
+      {/* Solutions Grid */}
+      <section className="section bg-off-white">
+        <div className="container">
+          <div className="section-header-center">
+            <span className="section-label">Specialised Solutions</span>
+            <h2 className="section-title">What We Cover</h2>
+            <div className="accent-divider-center" />
+            <p className="section-subtitle">
+              From greenfield projects to legacy plant modernisation, our solutions
+              span every critical domain of integrated steel manufacturing.
+            </p>
+          </div>
+
+          <div className="solutions-grid">
+            {solutions.map((s, index) => (
+              <div key={s.id} className="solutions-card">
+                <div className="solutions-card__header">
+                  <span className="solutions-card__num">
+                    {String(index + 1).padStart(2, '0')}
+                  </span>
+                  <span className="solutions-card__icon">{s.icon}</span>
+                </div>
+                <h3 className="solutions-card__title">{s.title}</h3>
+                <p className="solutions-card__desc">{s.desc}</p>
+                <ul className="solutions-card__list">
+                  {s.items.map(item => (
+                    <li key={item} className="solutions-card__item">
+                      <span className="solutions-card__bullet">→</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -154,43 +190,6 @@ export default function Solutions() {
         </div>
       </section>
 
-      {/* Solutions Grid */}
-      <section className="section bg-off-white">
-        <div className="container">
-          <div className="section-header-center">
-            <span className="section-label">Specialised Solutions</span>
-            <h2 className="section-title">What We Cover</h2>
-            <div className="accent-divider-center" />
-            <p className="section-subtitle">
-              From greenfield projects to legacy plant modernisation, our solutions
-              span every critical domain of integrated steel manufacturing.
-            </p>
-          </div>
-
-          <div className="solutions-grid">
-            {solutions.map((s, index) => (
-              <div key={s.id} className="solutions-card">
-                <div className="solutions-card__header">
-                  <span className="solutions-card__num">
-                    {String(index + 1).padStart(2, '0')}
-                  </span>
-                  <span className="solutions-card__icon">{s.icon}</span>
-                </div>
-                <h3 className="solutions-card__title">{s.title}</h3>
-                <p className="solutions-card__desc">{s.desc}</p>
-                <ul className="solutions-card__list">
-                  {s.items.map(item => (
-                    <li key={item} className="solutions-card__item">
-                      <span className="solutions-card__bullet">→</span>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="about-cta">

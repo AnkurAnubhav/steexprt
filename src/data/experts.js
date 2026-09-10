@@ -7,8 +7,8 @@ export const experts = [
     id: 1,
     name: "Sanjay Kumar",
     designation: "Partner and Co-Founder",
-    specialty: "Iron Making & Blast Furnace Operations",
-    experience: "28+ years",
+    specialty: "Steel Manufacturing Best Practices",
+    experience: "40+ years",
     bio: "Extensive experience in blast furnace operations and iron making processes. Expertise in optimizing production efficiency, reducing coke rates, and improving hot metal quality across integrated steel plants.",
     photo: profilephoto
   },

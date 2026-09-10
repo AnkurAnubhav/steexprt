@@ -73,19 +73,23 @@ export default function HeroSection() {
           </h1>
 
           <p className="hero__description">
-            We are a group of Ex TATA Steel and Other Leading Indian Steel Plant professional with
-             domain expertise on all aspects of Steel Manufacturing, inclusion Project Conceptualisation 
-             and Project management. We solutions help Project Site team better activity visibility and
-             clear site of critical activity thru CCPM tool. Our solutions support plant operation towards
-             most optimal option suiting their assets Equipment facilities and Raw materials. We help them
-             shift toward most cost-effective performance regime.
-             <strong>
-              We earn Values by sharing form new opportunities, recovered losses & additional productivity. 
-             </strong>
-             We help teams have better coherence and coordination among members at all levels such that
-             coherence line of action can be perused. Our trainings have in-built assessment process which
-             helps identify knowledge gaps and help design specific module for upgrading knowledge and skill
-             for highest level of coordination.
+            We are a group of Ex TATA Steel professional with domain expertise on all aspects
+            of Steel Manufacturing & processing, inclusion Project Conceptualisation and Project
+            management. Our solutions help Project Site team better their visibility on critical
+            activities at project site and help them with nest step as solution to accelerate 
+            critical activity thru CCPM tool. We also generate solutions to support plant 
+            operation towards most optimal option suiting their Assets, Equipment, Facilities and 
+            Raw materials. We provide solution to quickly migrate to most cost-effective performance.
+            <br></br>
+            <strong> 
+              We earn Values by sharing form new opportunities, recovered losses & additional productivity 
+            </strong>
+            <br></br>
+            Through our Team Building and Training solutions we help operations and project team 
+            better their team coherence and coordination at all levels such that coherent plan of 
+            action can be perused. Our trainings solutions have in-built assessment process which 
+            helps identify knowledge gaps and thus specifically designed module for upgrading knowledge 
+            and skill for highest level of expertise. 
           </p>
 
           <div className="hero__actions">
