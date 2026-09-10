@@ -81,9 +81,11 @@ export default function HeroSection() {
             operation towards most optimal option suiting their Assets, Equipment, Facilities and 
             Raw materials. We provide solution to quickly migrate to most cost-effective performance.
             <br></br>
+            <br></br>
             <strong> 
-              We earn Values by sharing form new opportunities, recovered losses & additional productivity 
+              We earn Values by sharing form new opportunities, recovered losses & additional productivity. 
             </strong>
+            <br></br>
             <br></br>
             Through our Team Building and Training solutions we help operations and project team 
             better their team coherence and coordination at all levels such that coherent plan of 

@@ -15,7 +15,7 @@ export const experts = [
   {
     id: 2,
     name: "Dushyant Kumar",
-    designation: "Chief Of Operation",
+    designation: "Chief Of Operations",
     specialty: "Hot Metal Logistics, Cast House Operation",
     experience: "38+ years",
     bio: "Ex Tata Steel professional specialising in Hot Metal Logistics, Cast House Operation and Blast furnace control.",
