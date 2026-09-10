@@ -23,7 +23,7 @@ export const experts = [
   },
   {
     id: 3,
-    name: "S N Upadhaya",
+    name: "S N Upadhyay",
     designation: "Senior Consultant",
     specialty: "Blast Furnace Maintenance and Projects",
     experience: "37+ years",
