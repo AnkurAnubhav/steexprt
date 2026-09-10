@@ -76,7 +76,7 @@ export default function HeroSection() {
             We are a group of Ex TATA Steel professional with domain expertise on all aspects
             of Steel Manufacturing & processing, inclusion Project Conceptualisation and Project
             management. Our solutions help Project Site team better their visibility on critical
-            activities at project site and help them with nest step as solution to accelerate 
+            activities at project site and help them with next step as solution to accelerate 
             critical activity thru CCPM tool. We also generate solutions to support plant 
             operation towards most optimal option suiting their Assets, Equipment, Facilities and 
             Raw materials. We provide solution to quickly migrate to most cost-effective performance.

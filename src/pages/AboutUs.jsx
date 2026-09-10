@@ -60,6 +60,32 @@ export default function AboutUs() {
         </div>
       </section>
 
+    {/* Team Section */}
+      <section className="section bg-off-white">
+        <div className="container">
+          <div className="section-header-center">
+            <span className="section-label">The People Behind Steexpert</span>
+            <h2 className="section-title">Meet Our Expert Team</h2>
+            <div className="accent-divider-center" />
+            <p className="section-subtitle">
+              Each member of our team brings decades of hands-on experience in a
+              specific domain of steel manufacturing — forming a comprehensive,
+              fully-integrated consulting capability.
+            </p>
+          </div>
+
+          {experts.length === 1 ? (
+            <ExpertCardFeatured expert={experts[0]} />
+          ) : (
+            <div className="about-experts-grid">
+              {experts.map(expert => (
+                <ExpertCardGrid key={expert.id} expert={expert} />
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
+
       {/* Company Story */}
       <section className="section">
         <div className="container">
@@ -71,14 +97,14 @@ export default function AboutUs() {
               </h2>
               <div className="accent-divider" />
               <p className="about-story-body">
-                Steexpert was established by a group of seasoned steel manufacturing 
+                STEELSOLUSN.COM was established by a group of seasoned steel manufacturing 
                 professionals who collectively spent decades working in integrated 
                 steel plants across India and internationally. We saw firsthand how 
                 valuable domain expertise — the kind you can only gain from years on 
                 the shop floor — could transform plant performance.
               </p>
               <p className="about-story-body mt-16">
-                We founded "Steexpert" to make that expertise accessible to steel 
+                We founded "STEELSOLUSN.COM" to make that expertise accessible to steel 
                 producers of all sizes of operation and steel project management: from 
                 greenfield projects seeking to establish best practices from conceptualisation 
                 stage, to legacy plants needing modernization, Manpower optimisation through 
@@ -115,32 +141,6 @@ export default function AboutUs() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="section bg-off-white">
-        <div className="container">
-          <div className="section-header-center">
-            <span className="section-label">The People Behind Steexpert</span>
-            <h2 className="section-title">Meet Our Expert Team</h2>
-            <div className="accent-divider-center" />
-            <p className="section-subtitle">
-              Each member of our team brings decades of hands-on experience in a
-              specific domain of steel manufacturing — forming a comprehensive,
-              fully-integrated consulting capability.
-            </p>
-          </div>
-
-          {experts.length === 1 ? (
-            <ExpertCardFeatured expert={experts[0]} />
-          ) : (
-            <div className="about-experts-grid">
-              {experts.map(expert => (
-                <ExpertCardGrid key={expert.id} expert={expert} />
-              ))}
-            </div>
-          )}
         </div>
       </section>
 

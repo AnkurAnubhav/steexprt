@@ -13,7 +13,7 @@ const overviewCards = [
   },
   {
     icon: '🤖',
-    title: 'Special Product',
+    title: 'AI Products',
     description:
       'Our AI-Based Smart Plant Operations App delivers self-learning AI with voice-guided process control, custom for specific plant operations on a mobile-first platform.',
     path: '/special-product',
@@ -102,7 +102,7 @@ export default function Home() {
         <div className="container">
           <div className="home__why-grid">
             <div className="home__why-content">
-              <span className="section-label">Why Steexpert</span>
+              <span className="section-label">Why STEELSOLUSN.COM</span>
               <h2 className="section-title">Unmatched Domain Depth in Steel Manufacturing</h2>
               <div className="accent-divider" />
               <p className="section-subtitle">
